@@ -1,0 +1,10 @@
+create table t_user(
+    id int primary key auto_increment,
+    name varchar(40),
+    password varchar(40),
+    email varchar(60),
+    birthday date
+);
+insert into t_user(name,password,email,birthday) values('tiger','123456','tiger@163.com','1994-12-01'),
+('rabbit','123456','tiger@163.com','1997-06-11'),
+('sheep','123456','sheep@163.com','1995-07-15');
